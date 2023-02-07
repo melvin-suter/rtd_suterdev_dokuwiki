@@ -27,3 +27,8 @@ div#sidebar li a {
     font-size: 1rem;
     color: #fff !important;
 }
+
+.mode_show #dokuwiki__content > .group {
+    width: 100%;
+    max-width: 100%;
+}
