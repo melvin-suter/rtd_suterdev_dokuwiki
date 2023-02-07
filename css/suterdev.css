@@ -28,6 +28,7 @@ div#sidebar li a {
     color: #fff !important;
 }
 
+.mode_search #dokuwiki__content > .group, .mode_login #dokuwiki__content > .group, .mode_resendpwd #dokuwiki__content > .group, .mode_register #dokuwiki__content > .group,
 .mode_show #dokuwiki__content > .group {
     width: 100%;
     max-width: 100%;
