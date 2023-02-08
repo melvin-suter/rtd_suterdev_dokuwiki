@@ -15,11 +15,24 @@ div#sidebar li {
 }
 
 
+
+#sidebar ul.toc .li.expandable *,
+#sidebar ul.toc .li.expandable {
+    background-color: #333 !important;
+    border-color: transparent !important;
+}
+
+
+#sidebar ul.toc .li.expandable:hover *,
+#sidebar ul.toc .li.expandable:hover,
 div#sidebar li:hover {
-    padding-left: 0.5rem;
-    font-size: 1rem;
     text-decoration: none !important;
-    background-color: #444;
+    background-color: #444 !important;
+}
+
+#sidebar p > strong{
+    line-height: auto;
+    height: auto;
 }
 
 
@@ -41,11 +54,4 @@ div#sidebar li a {
 
 #sidebar ul.toc li {
     padding-left: 0px;
-}
-
-
-#sidebar ul.toc .li.expandable *,
-#sidebar ul.toc .li.expandable {
-    background-color: #333 !important;
-    border-color: transparent !important;
 }
