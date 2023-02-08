@@ -22,7 +22,7 @@ div#sidebar li {
     border-color: transparent !important;
 }
 
-
+#dokuwiki__aside #dw__toc ul.toc > .level1 ul.toc > li > div.li:hover,
 #sidebar ul.toc .li.expandable .li:hover,
 #sidebar ul.toc .li.expandable .li:hover *,
 #sidebar ul.toc .li.expandable:hover *,
