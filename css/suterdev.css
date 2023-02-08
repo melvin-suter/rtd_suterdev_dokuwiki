@@ -33,6 +33,7 @@ div#sidebar li:hover {
 #sidebar p > strong{
     line-height: auto;
     height: auto;
+    color: #fff !important;
 }
 
 
