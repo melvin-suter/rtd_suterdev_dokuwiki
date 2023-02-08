@@ -14,8 +14,6 @@ div#sidebar li {
     text-decoration: none !important;
 }
 
-
-
 #sidebar ul.toc .li.expandable *,
 #sidebar ul.toc .li.expandable {
     background-color: #333 !important;
@@ -57,4 +55,9 @@ div#sidebar li a {
 
 #sidebar ul.toc li {
     padding-left: 0px;
+}
+
+
+#sidebar .current {
+    background-color: #555 !important;
 }
