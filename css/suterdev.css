@@ -23,6 +23,8 @@ div#sidebar li {
 }
 
 
+#sidebar ul.toc .li.expandable .li:hover,
+#sidebar ul.toc .li.expandable .li:hover *,
 #sidebar ul.toc .li.expandable:hover *,
 #sidebar ul.toc .li.expandable:hover,
 div#sidebar li:hover {
