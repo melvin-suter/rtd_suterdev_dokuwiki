@@ -1,3 +1,4 @@
+#sidebar p > strong,
 div#sidebar h1 {
     padding-left: 0.5rem;
     padding-top: 0.5rem;
@@ -32,4 +33,19 @@ div#sidebar li a {
 .mode_show #dokuwiki__content > .group {
     width: 100%;
     max-width: 100%;
+}
+
+#sidebar ul.toc {
+    background-color: #333;
+}
+
+#sidebar ul.toc li {
+    padding-left: 0px;
+}
+
+
+#sidebar ul.toc .li.expandable *,
+#sidebar ul.toc .li.expandable {
+    background-color: #333 !important;
+    border-color: transparent !important;
 }
