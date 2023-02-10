@@ -61,3 +61,43 @@ div#sidebar li a {
 #sidebar .current {
     background-color: #555 !important;
 }
+
+blockquote {
+    margin-left: 1rem;
+    padding: 0rem;
+    display: inline-block;
+}
+
+blockquote blockquote  {
+    margin: 0px;
+}
+
+blockquote div {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+blockquote:before {
+    content: "-";
+    color: transparent;
+    background-color: gray;
+    display: block;
+    position: absolute;
+    margin-left: -0.8rem;
+    width: 0.4rem;
+}
+
+
+blockquote blockquote:before {
+    background-color: #ff5151;
+}
+
+blockquote blockquote blockquote:before {
+    background-color: #6767f2;
+}
+
+blockquote blockquote blockquote blockquote:before {
+    background-color: #50bd50;
+}
