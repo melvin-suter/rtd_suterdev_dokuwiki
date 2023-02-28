@@ -1,7 +1,7 @@
 base     rtd_suterdev
 author   SuterDEV
 email    dokuwiki@suter.dev
-date     2023-02-10
+date     2023-02-28
 name     Read the Dokus SuterDEV
 desc     Read the Docs template
 url      https://www.dokuwiki.org/template:readthedokus
